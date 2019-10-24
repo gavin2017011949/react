@@ -1,18 +1,130 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.header{
+  height: 50px;
+  background: rgba(47,47,47,0.98);
+  width: 100%;
 }
-#root{
-  width:100px;
-  height:100px;
-  background-color:red;
+.header-content{
+  width: 600px;
+  margin: 0 auto;
+}
+.header-title{
+  float: left;
+  width: 100px;
+  line-height: 50px;
+  color: #DDD;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.content{
+width: 600px;
+margin: 0 auto;
+text-align: left;
+}
+.list-title{
+position: relative;
+display: block;
+font-size: 1.5em;
+margin-block-start: 0.83em;
+margin-block-end: 0.83em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+font-weight: bold;
+}
+.title-numb{
+position: absolute;
+top: 2px;
+right: 5px;
+display: inline-block;
+padding: 0 5px;
+height: 20px;
+border-radius: 20px;
+background: #E6E6FA;
+line-height: 22px;
+text-align: center;
+color: #666;
+font-size: 14px;
+
+}
+.list input{
+position: absolute;
+top: 2px;
+left: 10px;
+width: 22px;
+height: 22px;
+cursor: pointer;
+}
+.list li{
+height: 32px;
+line-height: 32px;
+background: #fff;
+position: relative;
+margin-bottom: 10px;
+text-indent: 0;
+padding: 0 45px;
+border-radius: 3px;
+border-left: 5px solid #629A9C;
+box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+list-style:none
+}
+.list1 input{
+position: absolute;
+top: 2px;
+left: 10px;
+width: 22px;
+height: 22px;
+cursor: pointer;
+}
+.list1 li{
+height: 32px;
+line-height: 32px;
+background: #fff;
+position: relative;
+margin-bottom: 10px;
+text-indent: 0;
+padding: 0 45px;
+border-radius: 3px;
+border-left: 5px solid #629A9C;
+box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+list-style:none;
+border-left-color: #999;
+opacity: 0.5;
+}
+.list span{
+position: absolute;
+top: 2px;
+right: 5px;
+display: inline-block;
+width: 14px;
+height: 12px;
+border-radius: 14px;
+border: 6px double #FFF;
+background: #CCC;
+line-height: 14px;
+text-align: center;
+color: #FFF;
+font-weight: bold;
+font-size: 14px;
+cursor: pointer;
+
+}
+.list1 span{
+position: absolute;
+top: 2px;
+right: 5px;
+display: inline-block;
+width: 14px;
+height: 12px;
+border-radius: 14px;
+border: 6px double #FFF;
+background: #CCC;
+line-height: 14px;
+text-align: center;
+color: #FFF;
+font-weight: bold;
+font-size: 14px;
+cursor: pointer;
+
 }
